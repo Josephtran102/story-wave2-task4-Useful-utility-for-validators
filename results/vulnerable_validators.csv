@@ -1,0 +1,9 @@
+No.,Moniker,Endpoint,Block Height,Voting Power,TX Index,Validator,Scan Time
+1,testnet-validator-1,http://44.223.234.211:26657,1-1541030,10139887099,off,Yes (❗️),10/18 11:17
+2,testnet-validator-4,http://184.169.154.204:26657,1-1541040,10123560283,off,Yes (❗️),10/18 11:17
+3,testnet-validator-7,http://3.1.137.11:26657,1-1541038,10040399302,off,Yes (❗️),10/18 11:17
+4,testnet-validator-2,http://3.222.216.118:26657,1-1541040,10010575491,off,Yes (❗️),10/18 11:17
+5,testnet-validator-6,http://3.248.113.42:26657,1-1541028,10007319425,off,Yes (❗️),10/18 11:17
+6,testnet-validator-3,http://52.9.183.131:26657,1-1541042,10006933619,off,Yes (❗️),10/18 11:17
+7,testnet-validator-8,http://52.74.117.64:26657,1-1541030,10006427240,off,Yes (❗️),10/18 11:17
+8,testnet-validator-5,http://63.35.134.129:26657,1-1541030,10004449826,off,Yes (❗️),10/18 11:17
