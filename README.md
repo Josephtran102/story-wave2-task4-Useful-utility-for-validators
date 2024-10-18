@@ -1,5 +1,5 @@
 # Wave-2: story-validators-race
-<img src="assets/story-wave2-banner-05.png" alt="Grafa banner" style="width: 100%; height: 100%; object-fit: cover;" />
+<img src="https://raw.githubusercontent.com/Josephtran102/story-wave2-task4-Useful-utility-for-validators/refs/heads/main/assets/story-wave2-banner-05.png" alt="Grafa banner" style="width: 100%; height: 100%; object-fit: cover;" />
 
 # Task4: Useful utility for validators
 For Task 4, I have developed two useful utilities for Story blockchain validators:
@@ -15,7 +15,7 @@ Below are detailed instructions for each tool.
 
 This tool is a useful utility for Story blockchain validators, helping to monitor block signing status and send alerts via Telegram when a validator misses multiple consecutive blocks.
 
-<img src="assets/story-monitor-mising-block.png" style="width: 100%; height: 100%; object-fit: cover;" />
+<img src="https://raw.githubusercontent.com/Josephtran102/story-wave2-task4-Useful-utility-for-validators/refs/heads/main/assets/story-monitor-mising-block.png" style="width: 100%; height: 100%; object-fit: cover;" />
 
 ### Key Features
 
@@ -131,8 +131,8 @@ The scanner will run and display results in the console. It will also generate t
 - `valid_rpc.csv`: All valid RPC endpoints discovered
 
 ### Example Output
-<img src="assets/rpc-scan-1.png" style="width: 100%; height: 100%; object-fit: cover;" />
-<img src="assets/rpc-scan-2.png" style="width: 100%; height: 100%; object-fit: cover;" />
+<img src="https://raw.githubusercontent.com/Josephtran102/story-wave2-task4-Useful-utility-for-validators/refs/heads/main/assets/rpc-scan-1.png" style="width: 100%; height: 100%; object-fit: cover;" />
+<img src="https://raw.githubusercontent.com/Josephtran102/story-wave2-task4-Useful-utility-for-validators/refs/heads/main/assets/rpc-scan-2.png" style="width: 100%; height: 100%; object-fit: cover;" />
 
 ### Security Considerations
 
