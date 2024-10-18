@@ -4,12 +4,12 @@
 # Task4: Useful utility for validators
 For Task 4, I have developed two useful utilities for Story blockchain validators:
 
-1. Validator Monitor: A real-time monitoring tool with Telegram alerts
-2. RPC Scanner: A comprehensive RPC endpoint scanner and vulnerability checker
+1. ✅ **Validator Monitor**: A real-time monitoring tool with Telegram alerts
+2. 📡 **RPC Scanner**: A comprehensive RPC endpoint scanner and vulnerability checker
 
 Below are detailed instructions for each tool.
 
-## I. Validator Monitor
+## I. Validator Monitor ✅
 
 ### Description
 
@@ -76,3 +76,74 @@ Block 1541419 | JosephTran01 ✅ | JosephTran02 ❌ (10) | JosephTran03 ✅ |
 Block 1541421 | JosephTran01 ✅ | JosephTran02 ❌ (11) | JosephTran03 ✅ |
 Block 1541423 | JosephTran01 ✅ | JosephTran02 ❌ (12) | JosephTran03 ❌ (1) |
 ```
+
+## II. RPC Scanner 📡
+
+### Description
+
+The RPC Scanner is a powerful utility designed to scan and analyze RPC endpoints in the Story blockchain network. It identifies vulnerable validators, collects network information, and provides a comprehensive overview of the network's state.
+
+### Key Features
+
+1. Automatic discovery of RPC endpoints from genesis and peer information
+2. Identification of vulnerable validators (open RPC ports and positive voting power)
+3. Collection of node information including moniker, block height, voting power, and indexer status
+4. Sorting and presentation of data in a clear, tabulated format
+5. Export of results to CSV files for further analysis
+
+### System Requirements
+
+- Python 3.7+
+- Required Python packages: requests, PyYAML, tabulate
+
+### Installation
+
+1. Clone the repository
+2. Install required packages:
+```
+pip install requests PyYAML tabulate
+```
+3. Configure the scanner:
+- Edit `config.yml` to set your desired parameters:
+  ```yaml
+  rpc_file_name: "rpc_list.txt"
+  genesis_file_url: "https://story.josephtran.co/genesis.json"
+  threads_count: 100
+  provider_timeout: 5
+  ```
+
+4. Prepare the initial RPC providers list:
+- Create a file named `rpc_list.txt` in the same directory
+- Add known RPC endpoints, one per line, e.g.:
+  ```
+  http://rpc1.example.com:26657
+  http://rpc2.example.com:26657
+  ```
+
+### Running the Scanner
+
+Execute the script:
+```
+python rpc_scanner.py
+```
+The scanner will run and display results in the console. It will also generate two CSV files in the `results` directory:
+- `vulnerable_validators.csv`: List of validators with open RPC ports and positive voting power
+- `valid_rpc.csv`: All valid RPC endpoints discovered
+
+### Example Output
+<img src="assets/rpc-scan-1.png" style="width: 100%; height: 100%; object-fit: cover;" />
+<img src="assets/rpc-scan-2.png" style="width: 100%; height: 100%; object-fit: cover;" />
+
+### Security Considerations
+
+This tool is intended for network analysis and improvement purposes. Use responsibly and respect the privacy and security of other network participants.
+
+## Contributing
+
+If you have any suggestions for improvements for either tool, please create an issue or pull request in the respective repositories.
+
+## 📫 If you need any help. Please contact to me:
+[![Website](https://img.shields.io/badge/Website-3b5998?style=for-the-badge&logo=google-chrome&logoColor=white)](https://service.josephtran.xyz/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/josephtran102)
+[![telegram](https://img.shields.io/badge/telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/josephtran)
+[![discord](https://img.shields.io/badge/discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/597430737440079883)
