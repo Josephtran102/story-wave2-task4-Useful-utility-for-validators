@@ -124,7 +124,7 @@ pip install requests PyYAML tabulate
 
 Execute the script:
 ```
-python rpc_scanner.py
+python story-rpc-scanner-v0.1.0.py
 ```
 The scanner will run and display results in the console. It will also generate two CSV files in the `results` directory:
 - `vulnerable_validators.csv`: List of validators with open RPC ports and positive voting power
