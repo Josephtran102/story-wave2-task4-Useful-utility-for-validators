@@ -6,8 +6,8 @@ YELLOW='\033[0;33m'
 RESET='\033[0m'
 
 # Telegram configuration
-TELEGRAM_BOT_TOKEN="7524329369:AAF7G41NpWjvjEddFS6Yoj35daUoqwiYkYs"
-TELEGRAM_CHAT_ID="893418756"
+TELEGRAM_BOT_TOKEN="YOUR_BOT_TOKEN"
+TELEGRAM_CHAT_ID="YOUR_CHAT_ID"
 
 # Number of consecutive missed blocks before sending an alert
 ALERT_THRESHOLD=10
