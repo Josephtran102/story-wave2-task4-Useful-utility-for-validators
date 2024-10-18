@@ -1,0 +1,5 @@
+verbose_mode: false
+rpc_file_name: "rpc_list.txt"
+genesis_file_url: "https://story.josephtran.co/genesis.json"
+threads_count: 20
+provider_timeout: 5
